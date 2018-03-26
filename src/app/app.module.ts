@@ -16,7 +16,7 @@ import { LoginComponent } from './login.component';
 
 const config = {
   issuer: 'https://mytrainingcompany.okta.com/oauth2/default',
-  redirectUri: 'http://localhost:4200/implicit/callback',
+  redirectUri: 'https://angularsigninwidget.herokuapp.com/implicit/callback',
   clientId: '0oa7jl8dec7JDBNPy2p6',
   scope: "openid email profile address phone"
 
