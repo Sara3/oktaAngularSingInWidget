@@ -17,8 +17,10 @@ export class LoginComponent {
   signIn;
 
   widget = new OktaSignIn({
-    baseUrl: 'https://mytrainingcompany.okta.com'
-
+    baseUrl: 'https://mytrainingcompany.okta.com',
+    features: {
+        router: true
+      }
     
   });
 
